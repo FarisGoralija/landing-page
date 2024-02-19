@@ -199,3 +199,15 @@ body{
     background-color: #3882F6;
     border: solid white 2px;
 }
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: white;
+}
