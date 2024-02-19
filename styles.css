@@ -130,3 +130,29 @@ body{
     margin-top: 10px;
     color: rgb(178, 172, 172);
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: rgb(178, 172, 172);
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+    
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author-text{
+    font-weight: bold;
+}
