@@ -156,3 +156,46 @@ body{
 .author-text{
     font-weight: bold;
 }
+
+.pop-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.big-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+    border-radius: 7px;
+    align-items: center;
+    padding: 10px;
+}
+
+.bold-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.light-text{
+    color: rgb(178, 172, 172);
+    margin-top: 4px;
+}
+
+.second-button{
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #3882F6;
+    border: solid white 2px;
+}
